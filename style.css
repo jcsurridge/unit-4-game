@@ -1,0 +1,23 @@
+#orangebox {
+    height: 20px;
+    width: 200px;
+    padding: 30px;
+    background: orange;
+    margin-bottom: 10px;
+}
+
+#game-instructions{
+    float: left;
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    background: rgb(231, 215, 193);
+}
+
+.scorebox {
+    background: green;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    clear: both;
+}
