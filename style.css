@@ -14,10 +14,16 @@
     background: rgb(231, 215, 193);
 }
 
+
+
 .scorebox {
     background: green;
     padding: 20px;
     height: 200px;
     width: 200px;
     clear: both;
+}
+
+.crystalimg { float: left;
+
 }
