@@ -5,9 +5,9 @@ $(document).ready(function () {
     var score = 0;
 
     var randomNumber = [Math.floor((Math.random() * 101) + 19)];
-    
+
     $("#goalscore").text("Number to guess: " + randomNumber);
-    
+
     var crystalValue1 = [Math.floor((Math.random() * 11) + 1)];
     var crystalValue2 = [Math.floor((Math.random() * 11) + 1)];
     var crystalValue3 = [Math.floor((Math.random() * 11) + 1)];
@@ -15,7 +15,7 @@ $(document).ready(function () {
 
     console.log(randomNumber);
     console.log(crystalValue1, crystalValue2, crystalValue3, crystalValue4)
-    
+
 
     //reset game 
 
@@ -81,7 +81,7 @@ $(document).ready(function () {
         $("#score").text("Your Score: " + score);
     };
 
-    
+
 
 
 

@@ -1,14 +1,13 @@
-body{ background-image: url("https://image.freepik.com/free-vector/gray-white-crystal-textured-background_53876-86343.jpg");
+body {
+    background-image: url("https://image.freepik.com/free-vector/gray-white-crystal-textured-background_53876-86343.jpg");
     border-image-repeat: stretch;
-
 }
 
-#container { margin-left: 200px;
-    
+#container {
+    margin-left: 200px;
     height: 750px;
-            width: 660px;
+    width: 660px;
 }
-
 
 span {
     font-family: 'ZCOOL KuaiLe', cursive;
@@ -25,8 +24,6 @@ span {
     margin-bottom: 10px;
 }
 
-
-
 #game-instructions {
     float: left;
     height: 600px;
@@ -35,9 +32,8 @@ span {
     background: rgba(255, 251, 214, 0.521);
 }
 
-#blueCrystal{
+#blueCrystal {
     margin-left: 20px;
-
 }
 
 .crystalimg {
