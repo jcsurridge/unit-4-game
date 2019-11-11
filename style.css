@@ -11,34 +11,40 @@ body{ background-image: url("https://image.freepik.com/free-vector/gray-white-cr
 
 
 span {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 28px;
 }
 
-#orangebox {
-    height: 20px;
-    width: 200px;
-    padding: 30px;
-    background: orange;
+#titleBox {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 40px;
+    height: 30px;
+    width: 600px;
+    padding: 20px;
+    background: rgba(243, 200, 197, 0.836);
     margin-bottom: 10px;
 }
 
+
+
 #game-instructions {
     float: left;
-    height: 400px;
-    width: 600px;
+    height: 600px;
+    width: 800px;
     padding: 20px;
     background: rgb(231, 215, 193);
 }
 
-#crystal1 {
-    margin-left: 10px;
+#blueCrystal{
+    margin-left: 20px;
+
 }
 
 .crystalimg {
     float: left;
     margin-top: 10px;
     height: 160px;
+    margin-left: 35px;
 }
 
 .scorebox {

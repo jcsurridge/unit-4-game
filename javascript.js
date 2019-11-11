@@ -32,14 +32,14 @@ $(document).ready(function () {
 
     // click events
 
-    $("#crystal1").on("click", function () {
+    $("#blueCrystal").on("click", function () {
         score += parseInt(crystalValue1);
         // alert("This click works!");
         console.log(score);
         winorlose();
     });
 
-    $("#crystal2").on("click", function () {
+    $("#greenCrystal").on("click", function () {
         score += parseInt(crystalValue2);
         // alert("This click works!");
         console.log(score);
@@ -47,14 +47,14 @@ $(document).ready(function () {
     });
 
 
-    $("#crystal3").on("click", function () {
+    $("#yellowCrystal").on("click", function () {
         score += parseInt(crystalValue3);
         // alert("This click works!");
         console.log(score);
         winorlose();
     });
 
-    $("#crystal4").on("click", function () {
+    $("#redCrystal").on("click", function () {
         score += parseInt(crystalValue4);
         // alert("This click works!");
         console.log(score);
